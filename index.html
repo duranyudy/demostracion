@@ -1,0 +1,73 @@
+<html>
+
+
+
+	<head>
+	
+	<title>Ajuste de precios</title>
+		<link rel="stylesheet" type="text/css" href="css/demostracion.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<h1>Ajustes de precios por porcentaje</h1>
+		<form href="#" id="form_change_price">
+			
+			<label>Porcentaje:</label>
+			<input type="text" name="percent" placeholder="Porcentaje" value="">
+			<br>
+
+			<label>Ajuste:</label>
+			<select id="aum_min">
+				<option value="0" selected>Aumentar</option>
+				<option value="1">Disminuir</option>
+			</select>
+			<button id="appli" type="button">Aplicar</button>
+			<br><br>
+			<div style="text-align:center;">
+			<table border="1" style="margin: 0 auto;">
+				<thead>
+					<tr>
+						<th>Producto</th>
+						<th>Precio</th>
+						<th>Imagen</th>		
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Armario</td>
+						<td id="price-1">500</td>
+						<td><img src="imagenes/armario.jpg" class="image"></td>
+					</tr>
+					<tr>
+						<td>Monopoly</td>
+						<td id="price-2">120</td>
+						<td><img src="imagenes/monopoly.jpg" class="image"></td>
+					</tr>
+					<tr>
+						<td>Cuaderno</td>
+						<td id="price-3">20</td>
+						<td><img src="imagenes/cuaderno.jpeg" class="image"></td>
+					</tr>
+					<tr>
+						<td>Cuadro</td>
+						<td id="price-4">14</td>
+						<td><img src="imagenes/cuadro.jpeg" class="image"></td>
+					</tr>
+					<tr>
+						<td>Cama</td>
+						<td id="price-5">750</td>
+						<td><img src="imagenes/cama.jpeg" class="image"></td>
+					</tr>
+
+				</tbody>
+			</table>
+			</div>
+		</form>
+	</body>
+	<footer>
+		<script type="text/javascript" src="js/demostracion.js"></script>
+	</footer>
+</html>
+
